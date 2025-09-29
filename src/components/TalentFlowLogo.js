@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // 1. Import the Link component
+
 const TalentFlowLogo = ({ size = 'default', className = '', showText = true }) => {
   const sizeClasses = {
     sm: 'h-6 w-6',
@@ -30,7 +31,9 @@ const TalentFlowLogo = ({ size = 'default', className = '', showText = true }) =
       {/* Logo Text */}
       {showText && (
         <span className={`ml-3 font-bold text-gray-900 ${textSizes[size]} tracking-tight`}>
+      
           TalentFlow
+          
         </span>
       )}
     </div>
