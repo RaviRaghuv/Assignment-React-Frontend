@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const TalentFlowLogo = ({ size = 'default', className = '', showText = true }) => {
   const sizeClasses = {
     sm: 'h-6 w-6',
