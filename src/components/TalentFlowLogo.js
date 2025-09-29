@@ -17,11 +17,13 @@ const TalentFlowLogo = ({ size = 'default', className = '', showText = true }) =
     <div className={`flex items-center ${className}`}>
       {/* Logo Image */}
       <div className={`relative ${sizeClasses[size]}`}>
+      <Link to="/app/dashboard">
         <img 
           src="/logo.png"   // Put your uploaded logo in the `public` folder
           alt="TalentFlow Logo"
           className="w-full h-full object-contain"
         />
+        </Link>
       </div>
 
       {/* Logo Text */}
