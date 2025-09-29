@@ -1,8 +1,8 @@
-# 🚀 TalentFlow - Outstanding Hiring Platform
+# TalentFlow - Outstanding Hiring Platform
 
 A comprehensive React-based hiring platform that enables HR teams to manage jobs, candidates, and assessments with a modern, intuitive, and scalable interface — featuring real-time data updates, offline support, customizable workflows, and performance optimizations designed for enterprise-grade recruitment.
 
-## 🏃‍♂️ Quick Start Guide
+##  Quick Start Guide
 
 ### Step 1: System Requirements
 - Node.js (v16 or higher)
@@ -11,6 +11,7 @@ A comprehensive React-based hiring platform that enables HR teams to manage jobs
 - Git
 
 ### Step 2: Installation
+
 ```bash
 # Clone the repository
 git clone <repository-url>
@@ -41,40 +42,41 @@ npm run build
 npm run analyze
 ```
 
-## ✨ Features Implemented
+##  Features Implemented
 
 ### ✅ Core Foundation
-- **React 19** with modern hooks and functional components
-- **Tailwind CSS** with custom design system and animations
-- **React Router** for seamless navigation
-- **IndexedDB** with Dexie for local data persistence
-- **MSW (Mock Service Worker)** for realistic API simulation
-- **React Hook Form** for robust form handling
-- **React Hot Toast** for elegant notifications
+- *React 19* with modern hooks and functional components
+- *Tailwind CSS* with custom design system and animations
+- *React Router* for seamless navigation
+- *IndexedDB* with Dexie for local data persistence
+- *MSW (Mock Service Worker)* for realistic API simulation
+- *React Hook Form* for robust form handling
+- *React Hot Toast* for elegant notifications
 
 ### ✅ Jobs Module (Complete)
-- **Job Board** with pagination, filtering, and search
-- **Create/Edit Jobs** with comprehensive form validation
-- **Archive/Unarchive** functionality
-- **Job Details** with candidate pipeline overview
-- **Drag-and-Drop Reordering** (ready for implementation)
-- **Deep Linking** with `/jobs/:id` routes
+- *Job Board* with pagination, filtering, and search
+- *Create/Edit Jobs* with comprehensive form validation
+- *Archive/Unarchive* functionality
+- *Job Details* with candidate pipeline overview
+- *Drag-and-Drop Reordering* (ready for implementation)
+- *Deep Linking* with /jobs/:id routes
 
 ### ✅ UI Components Library
-- **Button** with multiple variants and loading states
-- **Modal** with overlay, escape key, and portal rendering
-- **Input/Select** with validation and error states
-- **Card** components with header, body, footer
-- **Responsive Layout** with sidebar navigation
+- *Button* with multiple variants and loading states
+- *Modal* with overlay, escape key, and portal rendering
+- *Input/Select* with validation and error states
+- *Card* components with header, body, footer
+- *Responsive Layout* with sidebar navigation
 
 ### ✅ Data Management
-- **25+ Seed Jobs** with realistic data
-- **1000+ Seed Candidates** distributed across jobs
-- **Assessment Templates** for multiple job types
-- **Timeline Events** for candidate tracking
-- **Notes System** with @mention support (ready)
+- *25+ Seed Jobs* with realistic data
+- *1000+ Seed Candidates* distributed across jobs
+- *Assessment Templates* for multiple job types
+- *Timeline Events* for candidate tracking
+- *Notes System* with @mention support (ready)
 
-## 🏗️ Architecture
+
+## Architecture
 
 ### Project Structure
 ```
@@ -102,7 +104,7 @@ src/
 - **Icons**: Heroicons
 - **Notifications**: React Hot Toast
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -130,7 +132,7 @@ The app automatically seeds the database with:
 - 3+ assessment templates with multiple question types
 - Timeline events and candidate relationships
 
-## 🎯 Technical Highlights
+##  Technical Highlights
 
 ### Performance Optimizations
 - **Virtualized Lists** for large candidate datasets
@@ -220,7 +222,7 @@ export const newHandlers = [
 ];
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Build for Production
 ```bash
@@ -233,7 +235,7 @@ npm run build
 3. Set output directory: `build`
 4. Deploy!
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 ### Bundle Size
 - Initial bundle: ~200KB gzipped
