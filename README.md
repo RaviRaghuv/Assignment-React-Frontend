@@ -1,6 +1,6 @@
 # 🚀 TalentFlow - Outstanding Hiring Platform
 
-A comprehensive React-based hiring platform that enables HR teams to manage jobs, candidates, and assessments with a modern, intuitive interface.
+A comprehensive React-based hiring platform that enables HR teams to manage jobs, candidates, and assessments with a modern, intuitive, and scalable interface — featuring real-time data updates, offline support, customizable workflows, and performance optimizations designed for enterprise-grade recruitment.
 
 ## 🏃‍♂️ Quick Start Guide
 
